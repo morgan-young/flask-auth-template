@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flask-auth-template"
+version = "0.1.0"
+description = ""
+authors = ["anon"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.3"
+Flask-Cors = "^4.0.1"
+Flask-Login = "^0.6.3"
+Werkzeug = "^3.0.3"
+psycopg2-binary = "^2.9.9"
+Flask-SQLAlchemy = "^3.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
